@@ -1,4 +1,4 @@
-//flores Alemberht 91363 com 4. Antes el personaje se movía, no sé por qué no se puede ahora.
+https://youtu.be/xBxs02HpkzQ
 int estado;
 float posxpj, posypj, ypj, xpj;
 int posY=650;

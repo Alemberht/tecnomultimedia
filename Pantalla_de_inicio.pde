@@ -11,5 +11,6 @@ void pantalla(){
   rect(675, 500, 100, 50);
   fill (200,0,0);
   text("Créditos",725,525);
+  text("La meta es llegar al final del escenario sin tocar al esqueleto", 400,100);
 }
 }

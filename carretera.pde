@@ -5,7 +5,7 @@ class carretera extends auto{
   carretera(int estado){
     this.estado = estado;
     estado=1;
-   auto = loadImage("auto.png");
+
  }
 
   void fondo (){

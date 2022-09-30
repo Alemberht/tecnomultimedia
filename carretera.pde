@@ -1,6 +1,6 @@
 class carretera extends auto{
   int estado;
-  PImage Carretera, auto;
+
 ;
   carretera(int estado){
     this.estado = estado;

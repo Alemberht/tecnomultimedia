@@ -1,12 +1,17 @@
-class carretera extends pantallainicio{
-  auto c =new auto();
-  PImage Carretera;
-  carretera(){
+class carretera extends auto{
+  int estado;
+  PImage Carretera, auto;
+;
+  carretera(int estado){
+    this.estado = estado;
     estado=1;
-   Carretera= loadImage("carretera.jpg");
-       image(Carretera,0,0,800,600);}
-   void fondo (){
+   auto = loadImage("auto.png");
+ }
 
-     estado=1;
+  void fondo (){
+     if(estado==1){
+       background(0);
 }
-   }
+    image(auto,mouseX,mouseY,100,50);
+  }
+}

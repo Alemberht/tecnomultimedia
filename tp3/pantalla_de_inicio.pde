@@ -9,9 +9,18 @@ void pantallainicio(){
   textFont (lindaletra);
   text("PLAY", 300,250,525);
   rect(675, 500, 100, 50);
+  boton(200,375,200,50);
   fill (200,0,0);
-  text("Créditos",725,525);
+  text("Créditos",300,400);
   text("Ve si puedes sobrevivir ante  \n Drácula como jonathan Harker", 300,500);
 
+}
+ if(estado==13){
+  background(0);
+  fill (random(100,200));
+  text("Alumno: Flores Alemberht. Leg:91363/7", 300, 200);
+   text("Autor de la obra: Bram Stocker", 300, 400);
+   if(estado==13 && mousePressed){
+    reinicio();}
 }
 }

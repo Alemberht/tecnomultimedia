@@ -1,7 +1,0 @@
-class Mundo{
- Mundo(){
-
-   
-}
-  
-}
